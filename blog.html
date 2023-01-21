@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+    <title>BLOG</title>
+</head>
+<body>
+
+    <section class="sub-header">
+
+     <nav class="navbar">
+        <a href="index.html"><img src="./img/logo.png" class="logo"></a>
+
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-arrow-right" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+        
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+     </nav>
+
+       <h1 class="blog-heading">Our Certificate & online programs for 2023</h1>
+
+    </section>
+
+    <!-- ============================ blog page conetent ===================  -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./img/certificate.jpg">
+                <h2>Our Certificate & online programs for 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam harum inventore eveniet labore et nesciunt odio, voluptate est, qui fugiat maxime natus</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid explicabo asperiores nesciunt enim natus reiciendis consequatur repellendus nam optio, molestiae molestias sit dolorem ipsa commodi vero fugiat animi adipisci atque ipsum! Doloremque libero iste natus. Accusamus ducimus repellendus quod?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat laudantium fugit laboriosam rem modi odit maiores soluta vel ipsam voluptatum et pariatur ullam saepe impedit itaque architecto fuga, voluptates nostrum! Molestias, eum atque nostrum possimus corrupti reiciendis nesciunt! Quo necessitatibus nostrum sed, aliquid aperiam nemo sint cumque adipisci officia tempore!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit soluta delectus ullam. Voluptates ipsam a aperiam consectetur dolorem amet. Mollitia tempore aspernatur similique qui esse, libero eveniet culpa molestias?</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave A comment</h3>
+                    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Conputer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>44</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    <!-- ==================== footer ===================== -->
+
+
+     <footer id="footer">
+        <h2>Eduford Website &copy;2023, all rights reserved</h2>
+      </footer> 
+
+
+
+
+
+
+
+
+
+          <!-- -----------------JavaScript------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+      navLinks.style.opacity = "1";
+    }
+    function hideMenu(){
+      navLinks.style.opacity = "0";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+    <title>ABOUT</title>
+</head>
+<body>
+
+    <section class="sub-header">
+
+     <nav class="navbar">
+        <a href="index.html"><img src="./img/logo.png" class="logo"></a>
+
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-arrow-right" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+        
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+     </nav>
+
+       <h1 class="about-heading"> About Us</h1>
+
+    </section>
+
+
+
+    <!-- ==================== about content ========================== -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col about-text">
+                <h1>We Are The Pakistan's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, magnam quis odit et, iste dolorem cupiditate sint, nemo totam blanditiis delectus! Odit nihil inventore neque officia laborum sunt recusandae nulla!</p>
+                <a href="./blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col about-img">
+                <img src="./img/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== footer ===================== -->
+
+
+     <footer id="footer">
+        <h2>Eduford Website &copy;2023, all rights reserved</h2>
+      </footer> 
+
+
+
+
+
+
+
+
+
+          <!-- -----------------JavaScript------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+      navLinks.style.opacity = "1";
+    }
+    function hideMenu(){
+      navLinks.style.opacity = "0";
+    }
+  </script>
+
+</body>
+</html>
